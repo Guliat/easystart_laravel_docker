@@ -4,7 +4,7 @@
   - Livewire 2.3.1
 
 ## Docker
-  - I use <a href="https://github.com/aschmelyun/docker-compose-laravel" target="_blank">THIS </a> repo by Andrew Schmelyun.
+  - I use <a href="https://github.com/aschmelyun/docker-compose-laravel" target="_blank">THIS</a> repo by Andrew Schmelyun.
   - ADDRESS: localhost
   - PORT: 85
 
@@ -16,3 +16,4 @@
   - docker-compose run --rm composer install
   - docker-compose run --rm artisan key:generate
   - docker-compose run --rm artisan migrate
+  <b>- !! storage symlink ??</b>
