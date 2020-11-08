@@ -1,3 +1,12 @@
+<h1> DO NOT USE THIS REPO YET</h1>
+
+## TODO
+  - mysql folder
+  - symlink
+  - storage folder (profile pictures, etc)
+  - test on linux, mac, windows
+  - mysql folder permissions
+  
 ## About Repository
   - Laravel 8.13.0
   - Jetstream 1.6.0 (without Teams)
@@ -12,7 +21,7 @@
     - If not use 80, stored users files can't be accessed (ex. profile picutre).
 
 ## Usage
-  One time only
+  - One time only
     - Clone this repo
     - Enter into repo folder
     - Remove .git folder
@@ -24,7 +33,7 @@
     - docker-compose run --rm artisan migrate
     - docker-compose run --rm artisan storage:link
 
-  Every day usage
+ - Every day usage
     - START - docker-compose up -d --build site
     - STOP - docker-compose down
 
@@ -32,12 +41,4 @@
   - The Laravel project is in "src" folder
   - If you use Git, initialize new repository into "src" folder
   - If fresh database is needed you can delete "mysql" folder
-    - First down condainters and run them again after deletion
-
-
-## TODO
-  - mysql folder
-  - symlink
-  - storage folder (profile pictures, etc)
-  - test on linux, mac, windows
-  - mysql folder permissions
+    - First stop the containers and start them again after deletion
